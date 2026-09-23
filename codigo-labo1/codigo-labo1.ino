@@ -2,7 +2,6 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SH110X.h>
 
-Adafruit_SH1106G display = Adafruit_SH1106G(128, 64, &Wire, -1);
 
 const int LM35 = A0;
 int lectura;
